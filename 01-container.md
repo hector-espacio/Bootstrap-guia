@@ -22,6 +22,9 @@ Existen principalmente dos tipos de contenedores estables:
  2. **.container-fluid (Contenedor Fluido):** Ocupa siempre el **100% del ancho** disponible de la pantalla de lado a lado, sin importar si estás en un dispositivo pequeño o en un monitor gigante.
 #### Ejemplo 1: Uso exclusivo de un contenedor puro (.container)
 Este código muestra cómo se estructura un archivo utilizando únicamente el contenedor fijo. La teoría justifica que el contenido interno se mantendrá centrado y con límites de ancho fijos según la pantalla.
+
+[Link: Ejemplo codigo Container](/01-container/EjContainer.html)
+
 ```html
 <!DOCTYPE html>
 <html lang="es">
