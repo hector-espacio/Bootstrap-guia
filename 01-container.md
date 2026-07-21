@@ -23,7 +23,7 @@ Existen principalmente dos tipos de contenedores estables:
 #### Ejemplo 1: Uso exclusivo de un contenedor puro (.container)
 Este código muestra cómo se estructura un archivo utilizando únicamente el contenedor fijo. La teoría justifica que el contenido interno se mantendrá centrado y con límites de ancho fijos según la pantalla.
 
-[Link: Ejemplo codigo Container](https://hector-espacio.github.io/Bootstrap-guia/01-container/EjContainer.html)
+## [Link: Ejemplo codigo Container](https://hector-espacio.github.io/Bootstrap-guia/01-container/EjContainer.html)
 
 ```html
 <!DOCTYPE html>
