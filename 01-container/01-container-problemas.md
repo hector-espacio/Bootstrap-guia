@@ -23,5 +23,5 @@ Si quieres que la caja roja en el celular real no ocupe el 100% y tenga separaci
   <h1>quiero ver como se ve</h1>
   <p>con menor contenido y márgenes
   correctos en móvil y PC.</p>
-    </div>
+</div>
 ```
