@@ -14,7 +14,7 @@ Aunque el borde rojo toque los bordes del celular, **el texto de adentro sí tie
 
 Si quieres que la caja roja en el celular real no ocupe el 100% y tenga separación a los lados, tienes dos opciones:
 
-### > primero se elimina la clase container, porque en movil no se ve los margenes izquiero y derecho
+> ### primero se elimina la clase container, porque en movil no se ve los margenes izquiero y derecho
 
 
 
