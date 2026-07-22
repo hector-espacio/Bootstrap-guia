@@ -10,6 +10,14 @@ Cuando activas la **"vista de escritorio"** en tu navegador móvil, el celular l
  * **Sin la vista de escritorio (como móvil real):** El ancho de la pantalla de tu teléfono mide, por ejemplo, 390px o 412px. Como ese ancho es inferior al punto mínimo de Bootstrap (576px), el .container estira su ancho al **100%** de la pantalla para aprovechar cada milímetro disponible para la lectura. Al ocupar el 100%, tu borde rojo se pega por completo a los extremos izquierdo y derecho de la pantalla, dando la impresión de que "no tiene márgenes".
 ### La prueba definitiva: ¿Cómo comprobar que el .container sí tiene márgenes internos?
 Aunque el borde rojo toque los bordes del celular, **el texto de adentro sí tiene un margen de seguridad interno** (un padding predeterminado a los costados de 0.75rem o 12px aproximadamente) para que las letras nunca se choquen con el vidrio de la pantalla.
+
+
 Si quieres que la caja roja en el celular real no ocupe el 100% y tenga separación a los lados, tienes dos opciones:
+
+primero se elimina la clase container, porque en movil no se ve los margenes izquiero y derecho
+
+
+
+
  1. **Usar márgenes externos manuales:** Agregar la clase de espacio horizontal, por ejemplo, mx-3 o mx-4 a tu contenedor para forzar un margen exterior en móviles.
  2. **Usar un contenedor fluido con relleno (.container-fluid combinado con un px-4)** para controlar el aire de los costados.
