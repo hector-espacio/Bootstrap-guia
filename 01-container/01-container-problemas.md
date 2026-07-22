@@ -17,7 +17,9 @@ Si quieres que la caja roja en el celular real no ocupe el 100% y tenga separaci
 > ### primero se elimina la clase container, porque en movil no se ve los margenes izquiero y derecho
 
 
-
-
- 1. **Usar márgenes externos manuales:** Agregar la clase de espacio horizontal, por ejemplo, mx-3 o mx-4 a tu contenedor para forzar un margen exterior en móviles.
- 2. **Usar un contenedor fluido con relleno (.container-fluid combinado con un px-4)** para controlar el aire de los costados.
+```
+<div class="px-3 mx-3" style="border:solid 2px black">
+        <h1>quiero ver como se ve</h1>
+        <p>con menor contenido y márgenes correctos en móvil y PC.</p>
+    </div>
+```
