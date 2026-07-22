@@ -19,9 +19,9 @@ Si quieres que la caja roja en el celular real no ocupe el 100% y tenga separaci
 
 ```
 <div class="px-3 mx-3" 
-style="border:solid 2px black">
-        <h1>quiero ver como se ve</h1>
-        <p>con menor contenido y márgenes
- correctos en móvil y PC.</p>
+  style="border:solid 2px black">
+  <h1>quiero ver como se ve</h1>
+  <p>con menor contenido y márgenes
+  correctos en móvil y PC.</p>
     </div>
 ```
